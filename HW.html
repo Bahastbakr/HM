@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        #container .row-1 {
+            background-color: rgb(24, 26, 124);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+            border: 5px solid #2d2d2d;
+
+        }
+
+        #container .row-1 img {
+            border-radius: 4em;
+        }
+
+        #container .row-1 .icon {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #container .row-1 .icon a {
+            font-size: 30px;
+            text-decoration: none;
+            margin: 10px;
+            color: #fff;
+        }
+
+        #container .row-2 {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        #container .row-2 .col-1 {
+            display: flex;
+            width: 40%;
+            border: 5px solid #2d2d2d;
+            flex-direction: column;
+            background-color: rgb(24, 26, 124);
+            margin: 5px;
+            border-radius: 5px;
+            justify-items: bottom;
+
+        }
+
+        #container .row-2 .col-1 h2 {
+            background-color: rgb(148, 162, 201);
+            text-align: center;
+            border-radius: 2px;
+            margin: 20px;
+        }
+
+        #container .row-2 .col-1 .contact {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(176, 219, 243);
+            margin: 20px;
+            margin-right: 30px;
+            padding: 20px;
+        }
+
+
+        #container .row-2 .col-1 .contact div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        #container .row-2 .col-1 .contact div span {
+            display: flex;
+            flex-direction: row;
+            margin: 2px;
+            align-items: center;
+            width: 50%;
+        }
+
+        #container .row-2 .col-1 .contact div .value {
+            width: 100%;
+        }
+
+        #container .row-2 .col-1 .contact div span * {
+            margin-right: 10px;
+        }
+
+        #container .row-2 .col-2 {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            margin: 5px;
+            color: #fff;
+        }
+
+        ol {
+            line-height: 0;
+        }
+
+        #container .row-2 .col-2 * {
+            margin: 5px;
+            padding: 10px;
+        }
+
+        #container .row-2 .col-2 .about {
+            background-color: rgb(24, 26, 124);
+            border-radius: 2px;
+            border: 5px solid #2d2d2d;
+        }
+
+        #container .row-2 .col-2 .about .aboutme_text {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(176, 219, 243);
+            margin: 20px;
+            margin-right: 30px;
+            padding: 10px;
+            color: black;
+        }
+
+        #container .row-2 .col-2 .skills {
+            background-color: rgb(24, 26, 124);
+            border-radius: 2px;
+            border: 5px solid #2d2d2d;
+            line-height: 0;
+        }
+
+        #container .row-2 .col-2 .skills div {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(176, 219, 243);
+            margin: 20px;
+            margin-right: 30px;
+            padding: 10px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="container">
+        <div class="row-1">
+            <img src="img.jpg" alt="" width="100">
+            <h2>Your name</h2>
+            <p>awa bnusa ka xot atawe </p>
+            <div class="icon">
+                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-1">
+                <h2>BIO</h2>
+                <div class="contact">
+                    <div>
+                        <span>
+                            <i class="fas fa-calendar-week"></i>
+                            <span>Age</span>
+                        </span>
+                        <span class="value">20</span>
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </span>
+                        <span class="value">test@gmail.com</span>
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fab fa-skype"></i>
+                            <span>Skype</span>
+                        </span>
+                        <span class="value">value</span>
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-phone"></i>
+                            <span>Phone</span>
+                        </span>
+                        <span class="value">2737293</span>
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Address</span>
+                        </span>
+                        <span class="value">value</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="about">
+                    <h2>About me</h2>
+                    <p class="aboutme_text">labaray xotawa bnusa</p>
+                </div>
+                <div class="skills">
+                    <h2>My skills</h2>
+                    <div>
+                        <p>add skills add skillsadd skillsadd skillsadd skillsadd skillsadd skillsadd skillsadd
+                            skillsadd skills</p>
+                        <ol>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+
+                        </ol>
+                        <p>computer skills be like</p>
+                        <ol>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
